@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-materialize-dev-175813-authRole",
+      "UnauthRoleArn": "arn:aws:iam::677613331762:role/amplify-materialize-dev-175813-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::677613331762:role/amplify-materialize-dev-175813-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-materialize-dev-175813-deployment",
+      "UnauthRoleName": "amplify-materialize-dev-175813-unauthRole",
+      "StackName": "amplify-materialize-dev-175813",
+      "StackId": "arn:aws:cloudformation:us-east-2:677613331762:stack/amplify-materialize-dev-175813/c5268990-b30c-11ed-886e-02daa4dcd0dc",
+      "AmplifyAppId": "d2mlj0drdlas72"
+    },
+    "categories": {
+      "auth": {
+        "materializece824efa": {}
+      },
+      "api": {
+        "materialize": {}
+      }
+    }
+  }
+}
