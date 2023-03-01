@@ -1,5 +1,10 @@
 // ** React Imports
 import { useState } from 'react'
+import { Amplify } from 'aws-amplify'
+import config from '../../aws-exports'
+import { withAuthenticator} from '@aws-amplify/ui-react'
+
+Amplify.configure(config);
 
 // ** Next Imports
 import Link from 'next/link'
@@ -375,10 +380,11 @@ const LoginPage = () => {
           </BoxWrapper>
         </Box>
       </RightWrapper>
+    {/* <withAuthenticator /> */}
     </Box>
   )
 }
 LoginPage.getLayout = page => <BlankLayout>{page}</BlankLayout>
 LoginPage.guestGuard = true
 
-export default LoginPage
+export default LoginPage;
