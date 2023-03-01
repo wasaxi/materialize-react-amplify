@@ -81,11 +81,9 @@ const Home = () =>{
               <div key={note.id || note.name}>
               <h2>{note.name}</h2>
               <p>{note.description}</p>
+              {note.image && <img src={note.image} alt="img" style={{width: 130}} />}
               <button onClick={() => deleteNote(note)}>Delete note</button>
-              {
-                note.image && <img src={note.image} style={{width: 400}} />
-              }
-            </div>
+              </div>
             ))
             }
             </div>
