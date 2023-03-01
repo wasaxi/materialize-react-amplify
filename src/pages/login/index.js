@@ -1,10 +1,10 @@
 // ** React Imports
 import { useState } from 'react'
-import { Amplify } from 'aws-amplify'
-import config from '../../aws-exports'
-import { withAuthenticator} from '@aws-amplify/ui-react'
+// import { Amplify } from 'aws-amplify'
+// import config from '../../aws-exports'
+// import { withAuthenticator} from '@aws-amplify/ui-react'
 
-Amplify.configure(config);
+// Amplify.configure(config);
 
 // ** Next Imports
 import Link from 'next/link'
